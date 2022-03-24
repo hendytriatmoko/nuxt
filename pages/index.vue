@@ -1,6 +1,9 @@
 <template>
   <div>
-    ini halaman depan
+    <app-bar />
+    <br>
+
+    <div>ini halaman depan</div>
   </div>
 </template>
 
@@ -12,7 +15,10 @@ import { mapGetters, mapActions } from 'vuex'
 export default {
   name: 'Home',
   components: {
-        
+    AppBar: () =>
+      import(/* webpackChunkName: "app-bar" */ '@/components/AppBar.vue'),
+       Footer: () =>
+      import(/* webpackChunkName: "footer" */ '@/components/Footer.vue'),
   },
   data: () => ({
     

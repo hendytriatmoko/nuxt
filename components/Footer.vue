@@ -2,82 +2,81 @@
 
   
 <div>
-    <v-card flat color="grey lighten-2" >
-      <v-container>
-        <v-row>
-          <v-col cols="6" sm="2">
-            <h2>SiMotor</h2>
-            <a href="/tentang?tab=about" target="_blank"> <div class="black--text">Tentang SiMotor</div></a>
-           <a href="https://blog.simotor.id/" target="_blank"> <div class="black--text">Blog</div></a>
-        
-             <a href="/tentang?tab=faq" target="_blank" > <div class="black--text">FAQ</div></a>
-          </v-col>
-
-          <v-col cols="6" sm="4">
-            <h2>Bantuan dan Panduan</h2>
-            <a href="/tentang?tab=bantuan" target="_blank">
-            <div class="black--text">Bantuan SiMotor</div>
-            </a>
-            <a href="/tentang?tab=ketentuan" target="_blank">
-              <div class="black--text">Ketentuan Penggunaan</div>
-            </a>
-            <a href="/tentang?tab=kebijakan" target="_blank">
-              <div class="black--text">Kebijakan Privasi</div>
-            </a>
-            <a href="/tentang?tab=panduanpembeli" target="_blank">
-              <div class="black--text">Panduan Penggunaan</div>
-            </a>
-            <a href="/tentang?tab=kodeetik" target="_blank">
-              <div class="black--text">Kode Etik Pengguna</div>
-            </a>
-          </v-col>
-
-          <v-col cols="12" sm="2">
-            <h2>Ikuti Kami</h2>
-            <br />
-            <v-row justify="space-around">
-              <a
-                href="https://www.facebook.com/OfficialSiMotor/"
-                target="_blank"
-              >
-                <v-icon large color="blue">mdi-facebook</v-icon>
-              </a>
-              <a href="https://www.instagram.com/simotor.id/" target="_blank">
-                <v-icon large color="purple">mdi-instagram</v-icon>
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UCBExlB0xnMoTDT8LwVKg9oA"
-                target="_blank"
-              >
-                <v-icon large color="red">mdi-youtube</v-icon>
-              </a>
-            </v-row>
-          </v-col>
-
-          <v-spacer></v-spacer>
-
-          <v-col cols="12" sm="2" align="center">
-            <v-img src="/img/simotor-logo.webp" width="150"></v-img>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.digitalnetworkasia.simotorbeta"
-              target="_blank"
+    <v-footer class="footer">
+    <v-container>
+      <v-row class="py-0 py-md-15">
+        <!-- -----------------------------------------------
+        First Column
+      ----------------------------------------------- -->
+        <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
+          <h4 class="font-weight-regular font-18">Address</h4>
+          <p class="mt-10">71 Amsteroum Avenue Cronish Night, NY 35098</p>
+        </v-col>
+        <!-- -----------------------------------------------
+        Second Column
+      ----------------------------------------------- -->
+        <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
+          <h4 class="font-weight-regular font-18">Phone</h4>
+          <p class="mt-10 mb-0">Reception : +205 123 4567</p>
+          <p>Office : +207 235 7890</p>
+        </v-col>
+        <!-- -----------------------------------------------
+        Third Column
+      ----------------------------------------------- -->
+        <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
+          <h4 class="font-weight-regular font-18">Email</h4>
+          <p class="mt-10 mb-0">
+            Office : <a class="dark-link" href="/">info@wrappixel.com</a>
+          </p>
+          <p>
+            Site :
+            <a class="dark-link" href="https://www.wrappixel.com/"
+              >wrappixel.com</a
             >
-            <br />
-              <v-img src="/img/playstore.png" width="150"></v-img>
-            </a>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-card>
+          </p>
+        </v-col>
+        <!-- -----------------------------------------------
+        Fourth Column
+      ----------------------------------------------- -->
+        <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
+          <h4 class="font-weight-regular font-18">Social</h4>
 
-    <v-card>
-      <v-footer>
-         <v-card-text class="text-center">
-          &copy; {{ new Date().getFullYear() }} —
-          <strong>Digital Nayaka Abhinaya</strong>
-        </v-card-text>
-      </v-footer>
-    </v-card>
+          <div class="social-icons mt-10">
+            <a href="#">
+              <i class="mdi mdi-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="mdi mdi-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="mdi mdi-google-plus"></i>
+            </a>
+            <a href="#">
+              <i class="mdi mdi-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="mdi mdi-instagram"></i>
+            </a>
+          </div>
+        </v-col>
+      </v-row>
+      <div class="footer-bottom-bar font-14">
+        <div class="d-block d-md-flex align-center">
+          <p>
+            All Rights Reserved by
+            <a href="https://www.wrappixel.com/" class="link">wrappixel.com</a>
+          </p>
+          <div class="ml-auto">
+            <div class="d-flex align-center">
+              <a href="/" class="link px-4">Terms of Use</a>
+              <a href="/" class="link px-4">Legal Disclaimer</a>
+              <a href="/" class="link px-4">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </v-container>
+  </v-footer>
 
 </div>
 </template>
